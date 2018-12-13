@@ -47,7 +47,6 @@ p = ggplot(data, aes(x = LandHet, y = richness, color = value, linetype = value,
   theme(legend.position = c(0.15,0.85), legend.title = element_blank(), legend.background = element_blank(),
         axis.title = element_blank(), panel.grid = element_blank(),
         plot.margin = unit(c(0,0,0,0), units = rep("points", 4)))
-p
 
 blue = "#1f78b4"
 red = "#b2182b"
